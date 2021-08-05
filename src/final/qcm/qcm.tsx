@@ -32,36 +32,24 @@ const QCM: Array<IQCMInterface> = [
   //export
   {
     exerciseId: 'src/exercise/02.md',
-    exerciseTitle: 'Manipuler le DOM',
+    exerciseTitle: 'Manipuler le DOM avec React',
     quiz: [
       {
-        question: "DOM cest quoi  ?",
-        options: ["chrome", "bbb", "sss", "ddd"],
+        question: "Quel est l'équivalent de document.createElement('div') ?",
+        options: ["ReactDOM.createElement('div')", "React.createElement('div')", "ReactJS.createElement('div')", "ReactRender.createElement('div')"],
+        answer: "1"
+      },{
+        question: "Quel est l'équivalent de rootElement.append(element)",
+        options: ["React.render(element, rootElement)", "ReactDOM.render(element, rootElement)", "ReactDOM.render(rootElement,element)", "React.render(rootElement,element)"],
         answer: "0"
       },{
-        question: "HMTL est ",
-        options: ["a2", "b2", "c2", "d2"],
+        question: "React est ",
+        options: ["Déclaration", "Impératif"],
+        answer: "0"
+      },{
+        question: "Qu'est-ce que le prop children ?",
+        options: ["Un prop comme un autre", "permet de gérer le CSS enfant", "permet l'imbrication de composants"],
         answer: "2"
-      },{
-        question: "Render app",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "3"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
       }
     ],
   },
