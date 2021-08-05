@@ -16,36 +16,16 @@ interface IQCMInterface {
 const QCM: Array<IQCMInterface> = [
   {
     exerciseId: 'src/exercise/01.md',
-    exerciseTitle: 'Les bases de React',
+    exerciseTitle: 'Manipuler le DOM en JavaScript Natif',
     quiz: [
       {
-        question: "React est ?",
-        options: ["lib", "framework", "langage", "autre"],
-        answer: "0"
+        question: "Comment créer un élement DOM div en JavaScript ",
+        options: ["window.createElement('div')", "document.createElement('div')", "document.createDiv()", "super.createElement('div')"],
+        answer: "1"
       },{
-        question: "HMTL est ",
-        options: ["a2", "b2", "c2", "d2"],
-        answer: "2"
-      },{
-        question: "Render app",
-        options: ["a3", "b3", "c3", "d3"],
+        question: "Comment ajouter du texte sur cet élement ? (divEl)",
+        options: ["divEl.text = 'le texte'", "divEl.setText = 'le texte'", "divEl.writeText = 'le texte'", "divEl.textContent = 'le texte'"],
         answer: "3"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
       }
     ],
   },
