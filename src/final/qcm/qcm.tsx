@@ -55,17 +55,25 @@ const QCM: Array<IQCMInterface> = [
   },
   {
     exerciseId: 'src/exercise/03.md',
-    exerciseTitle: 'Manipuler le style',
+    exerciseTitle: 'Utilisation de JSX',
     quiz: [
       {
-        question: "LEs styles  ?",
-        options: ["css", "jss", "xss", "pdf"],
-        answer: "0"
+        question: "Que signifie JSX ?",
+        options: ["JavaSctipt Sans XML", "JavaScript XML", "JS vervion X", "JavaScript SX"],
+        answer: "1"
       },{
-        question: "HMTL est ",
-        options: ["a2", "b2", "c2", "d2"],
+        question: "Quelle la bonne solution pour une div et une classe CSS",
+        options: ["<div class='container' />", "<div className='container' />"],
+        answer: "1"
+      },{
+        question: "JSX est reconnu par tous les navigateur récent ",
+        options: ["Vrai", "Faux"],
+        answer: "1"
+      },{
+        question: "Quel utilitaire nous permet d'utiliser JSX",
+        options: ["NPM", "ESlint","Babel"],
         answer: "2"
-      } 
+      }
     ],
   },
 ]
