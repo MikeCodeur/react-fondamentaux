@@ -66,7 +66,7 @@ const QCM: Array<IQCMInterface> = [
         options: ["<div class='container' />", "<div className='container' />"],
         answer: "1"
       },{
-        question: "JSX est reconnu par tous les navigateur récent ",
+        question: "JSX est reconnu par tous les navigateurs récents ",
         options: ["Vrai", "Faux"],
         answer: "1"
       },{
@@ -76,6 +76,37 @@ const QCM: Array<IQCMInterface> = [
       }
     ],
   },
+  {
+    exerciseId: 'src/exercise/04.md',
+    exerciseTitle: 'Créer des Composants React',
+    quiz: [
+      {
+        question: "Quelle est la bonne déclaration d'un composant ?",
+        options: ["function Welcome()", "function welcome()"],
+        answer: "0"
+      },{
+        question: "Qu'est ce qu'un prop ?",
+        options: ["Un composant", "Des données en entrées de composant", "Un validateur de données"],
+        answer: "1"
+      },{
+        question: "Peut-on modifier un prop à l'interieur du composant ?",
+        options: ["Oui", "Non"],
+        answer: "1"
+      },{
+        question: "Les props sont que des string ",
+        options: ["Vrai", "Faux"],
+        answer: "1"
+      },{
+        question: "Les props peuvent être des fonctions",
+        options: ["Vrai", "Faux"],
+        answer: "0"
+      },{
+        question: "Comment valider les props ?",
+        options: ["Avec Validator", "Avec Flow", "Avec PropTypes"],
+        answer: "2"
+      }
+    ],
+  }
 ]
 
 //export default QCM;

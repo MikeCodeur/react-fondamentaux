@@ -16,7 +16,13 @@
       const h1Element = <h1>Bienvenue</h1>  
       const h2Element = <h2>Commencez ici</h2> 
       const pElement = <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-      const children = <>{h1Element} {h2Element} {pElement}</>
+      const children = (
+        <>
+          {h1Element}
+          {h2Element}
+          {pElement}
+        </>
+      )
       const props = {className, children}
       const divEl = <div {...props} /> 
       ReactDOM.render(divEl, document.getElementById('root'))

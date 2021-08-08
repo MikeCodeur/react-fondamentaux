@@ -10,8 +10,10 @@
   <body>
     <div id="root"></div>
     <script type="text/babel">
-      const children = 'Bienvenue sur mon site'
       const className = 'rootContainer'
+      const welcome = 'Bienvenue'
+      const site = 'sur mon site'
+      const children = `${welcome} ${site}`
       const divEl = <div className={className}>{children}</div> 
       ReactDOM.render(divEl, document.getElementById('root'))
     </script>
