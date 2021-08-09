@@ -106,6 +106,33 @@ const QCM: Array<IQCMInterface> = [
         answer: "2"
       }
     ],
+  },
+  {
+    exerciseId: 'src/exercise/05.md',
+    exerciseTitle: 'Ajouter du Style CSS',
+    quiz: [
+      {
+        question: "Quel prop React permet de spécifier une Classe",
+        options: ["class", "classe", "className","nameClass"],
+        answer: "2"
+      },{
+        question: "Quel prop React permet de faire du style inline",
+        options: ["inline", "style", "styles","css"],
+        answer: "1"
+      },{
+        question: "Les propriétés CSS en React sont sous forme ",
+        options: ["De string", "D'objet"],
+        answer: "1"
+      },{
+        question: "Les propriétés CSS en React sont en ",
+        options: ["CamelCase", "Kebab-Case"],
+        answer: "0"
+      },{
+        question: "Il est recommandé d'utiliser le css  ",
+        options: ["En Inline", "via des Classes"],
+        answer: "1"
+      }
+    ],
   }
 ]
 
