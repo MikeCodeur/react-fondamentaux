@@ -1,5 +1,5 @@
 // Ajouter du Style CSS
-// http://localhost:3000/isolated/final/05.js
+// http://localhost:3000/alone/final/05.js
 
 import * as React from 'react'
 import '../05-styles.css'

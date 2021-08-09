@@ -133,6 +133,21 @@ const QCM: Array<IQCMInterface> = [
         answer: "1"
       }
     ],
+  },
+  {
+    exerciseId: 'src/exercise/06.md',
+    exerciseTitle: 'Affichage Conditionnel',
+    quiz: [
+      {
+        question: "Un composant peut-il retourner null ?",
+        options: ["Oui", "Non"],
+        answer: "0"
+      },{
+        question: "Quel est la bonne syntyaxe d'une ternaire ?",
+        options: ["libelle = isAdmin ? <HelloAdmin> :  <HelloGuest>", "libelle = isAdmin : <HelloAdmin> ?  <HelloGuest>", "libelle = isAdmin ! <HelloAdmin> :  <HelloGuest>","libelle = isAdmin ? <HelloAdmin> ?  <HelloGuest>"],
+        answer: "0"
+      }
+    ],
   }
 ]
 
