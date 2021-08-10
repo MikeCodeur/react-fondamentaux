@@ -14,8 +14,8 @@ const skills = [
 function MesSkills() {
   return (
     <ul>
-      {skills.map((skill, index) => (
-        <li key={index.id}>{skill.value}</li>
+      {skills.map((skill) => (
+        <li key={skill.id}>{skill.value}</li>
       ))}
     </ul>
   )

@@ -169,6 +169,42 @@ const QCM: Array<IQCMInterface> = [
         answer: "1"
       }
     ],
+  },
+  {
+    exerciseId: 'src/exercise/08.md',
+    exerciseTitle: 'Les States',
+    quiz: [
+      {
+        question: "Peut-on modifier des props en interne d'un composant ?",
+        options: ["Oui", "Non"],
+        answer: "1"
+      },
+      {
+        question: "Peut-on modifier des states en interne d'un composant ?",
+        options: ["Oui", "Non"],
+        answer: "0"
+      },
+      {
+        question: "Qu'est ce qu'une fonction pure ?",
+        options: ["Une fonction contenant des states", "Une fonction qui retourne un objet", "Une fonction qui modifie l'entrée","Une fonction qui ne modifie pas l'entrée"],
+        answer: "3"
+      },
+      {
+        question: "En React il est interdit d'avoir des fonctions impures ?",
+        options: ["Vrai", "Faux"],
+        answer: "0"
+      },
+      {
+        question: "Les Classes permettent de faire des composants statefull" ,
+        options: ["Vrai", "Faux"],
+        answer: "0"
+      },
+      {
+        question: "Les fonctions permettent uniquement des composants stateless" ,
+        options: ["Vrai", "Faux"],
+        answer: "1"
+      }
+    ],
   }
 ]
 
