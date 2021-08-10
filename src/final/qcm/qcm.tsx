@@ -148,6 +148,27 @@ const QCM: Array<IQCMInterface> = [
         answer: "0"
       }
     ],
+  },
+  {
+    exerciseId: 'src/exercise/07.md',
+    exerciseTitle: 'Rendu de tableaux',
+    quiz: [
+      {
+        question: "Les props keys uniques sont obligatoires partout ?",
+        options: ["Oui", "Non"],
+        answer: "1"
+      },
+      {
+        question: "Les props keys uniques sont obligatoires sur les listes ?",
+        options: ["Oui", "Non"],
+        answer: "0"
+      },
+      {
+        question: "Si les props keys uniques sont absentes cela ...",
+        options: ["Logue une erreur dans la console", "Logue un warning dans la console"],
+        answer: "1"
+      }
+    ],
   }
 ]
 
