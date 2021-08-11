@@ -1,11 +1,11 @@
 // Formulaires
-// 🚀 Composant non controllé
+// 🚀 Composant controllé
 // http://localhost:3000/alone/final/05.js
 
 import * as React from 'react'
 
 function LoginForm() {
-  const [email, setEmail] = React.useState();
+  const [email, setEmail] = React.useState()
 
   const handleChange = event => {
     setEmail(event.target.value)
@@ -20,7 +20,7 @@ function LoginForm() {
     <form onSubmit={handleSubmit}>
       <label>
         Adresse email :
-        <input type="text" name="emailInput" onChange={handleChange}/>
+        <input type="text" name="emailInput" onChange={handleChange} />
       </label>
       <input type="submit" value="Connexion" />
     </form>

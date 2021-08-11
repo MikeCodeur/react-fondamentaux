@@ -205,7 +205,33 @@ const QCM: Array<IQCMInterface> = [
         answer: "1"
       }
     ],
-  }
+  },
+  {
+    exerciseId: 'src/exercise/09.md',
+    exerciseTitle: 'Les Formulaires',
+    quiz: [
+      {
+        question: "Qu'est-ce qu'un compopsant non-controllé ?",
+        options: ["Les données sont gérées dans le DOM", "Les données sont gérées dans des states"],
+        answer: "0"
+      },
+      {
+        question: "Qu'est-ce qu'un compopsant controllé ?",
+        options: ["Les données sont gérées dans le DOM", "Les données sont gérées dans des states"],
+        answer: "1"
+      },
+      {
+        question: "Quelles est la bonne syntaxe pour créer une ref",
+        options: ["React.useCreateRef()","React.ref()", "React.useRef()"],
+        answer: "2"
+      },
+      {
+        question: "Comment récupérer la valeur du champs input dans l'événement onChange ?",
+        options: ["event.value", "event.ref.value","event.target.data", "event.target.value"],
+        answer: "3"
+      }
+    ],
+  },
 ]
 
 //export default QCM;

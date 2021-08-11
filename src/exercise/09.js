@@ -3,38 +3,27 @@
 
 import * as React from 'react'
 
-// 🐶 Créé un fonction 'addSkillPython' qui ajoute le skill Python
-// 🤖 skills.push({id:'xxxx', value: 'Python'})
-// 🤖 Utilise {id:`${Math.random()}` pour générer un id aléatoire
-// 🐶 dans la fonction 'addSkillPython' logue le tableau skills
-// 🤖 console.log('skills',skills)
+function LoginForm() {
+  // 🐶 Gère l'événement onSubmit de <form> en créant une fonction 'handleSubmit'
+  // 🤖 <form onSubmit={handleSubmit}>
+  // 🤖 Utilise `event.preventDefault()` dans la fonction handleSubmit pour stopper
+  // le comportement par defaut du formulaire (soumission et rafraichissement page)
 
-const skills = [
-  {id: 'e313', value: 'HTML'},
-  {id: 'f980', value: 'CSS'},
-  {id: '11eb', value: 'JS'},
-  {id: '9a03', value: 'REACT'},
-	{id: '65d4', value: 'ANGULAR'},
-]
-
-// 🐶 Créé un button dans le render et sur l'evenement onclick passer la fonction 'addSkillPython'
-// 🤖 <button onClick={addSkillPython}
-function MesSkills() {
+  // 🐶 Affiche ensuite une popup Bonjour 'email@email.fr'
+  // 🤖 Utilise `event.target.elements.emailInput.value` pour récupèrer la valeur de l'email
   return (
-    <>
-      <ul>
-        {skills.map((skill) => (
-          <li key={skill.id}>{skill.value}</li>
-        ))}
-      </ul>
-    </>
+    <form>
+      <label>
+        Adresse email :
+        <input type="text" name="emailInput" />
+      </label>
+      <input type="submit" value="Connexion" />
+    </form>
   )
 }
 
 function App() {
-  return <MesSkills />
+  return <LoginForm />
 }
 
 export default App
-
-

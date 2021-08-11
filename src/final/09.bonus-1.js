@@ -1,11 +1,11 @@
 // Formulaires
-// 🚀 Composant non controllé
+// 🚀 Composant non-controllé
 // http://localhost:3000/alone/final/05.js
 
 import * as React from 'react'
 
 function LoginForm() {
-  const emailInputRef = React.useRef();
+  const emailInputRef = React.useRef()
   const handleSubmit = event => {
     event.preventDefault()
     alert(`Bonjour ${emailInputRef.current.value}`)
@@ -15,7 +15,7 @@ function LoginForm() {
     <form onSubmit={handleSubmit}>
       <label>
         Adresse email :
-        <input type="text" name="emailInput" ref={emailInputRef}/>
+        <input type="text" name="emailInput" ref={emailInputRef} />
       </label>
       <input type="submit" value="Connexion" />
     </form>

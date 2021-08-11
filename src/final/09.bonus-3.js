@@ -1,16 +1,16 @@
 // Formulaires
-// 🚀 Composant non controllé
+// 🚀 Validation et erreur
 // http://localhost:3000/alone/final/05.js
 
 import * as React from 'react'
 
 function LoginForm() {
-  const [email, setEmail] = React.useState("");
-  const [error, setError] = React.useState();
+  const [email, setEmail] = React.useState('')
+  const [error, setError] = React.useState()
 
   const handleChange = event => {
     setEmail(event.target.value)
-    setError(email.includes("@") ? null : "L'email est non valide")
+    setError(email.includes('@') ? null : "L'email est non valide")
   }
 
   const handleSubmit = event => {
@@ -22,11 +22,9 @@ function LoginForm() {
     <form onSubmit={handleSubmit}>
       <label>
         Adresse email :
-        <input type="text" name="emailInput" onChange={handleChange}/>
+        <input type="text" name="emailInput" onChange={handleChange} />
       </label>
-      <div style={{color: 'red'}}>
-        {error}
-      </div>
+      <div style={{color: 'red'}}>{error}</div>
       <input type="submit" value="Connexion" />
     </form>
   )
