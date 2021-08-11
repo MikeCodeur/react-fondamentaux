@@ -2,13 +2,13 @@ import {robertAlertTip} from '@mikecodeur/react-course-app/test-utils'
 import chalk from 'chalk'
 import {render, screen, prettyDOM} from '@testing-library/react'
 
-import App from '../final/02'
-//import App from '../final/02.bonus-1'
+//import App from '../final/05'
+import App from '../final/05.bonus-1'
 //import App from '../exercise/02'
 
 test('effectue le rendu et vérifie le style', () => {
   render(<App />)
-  const allContainers = screen.getAllByText(/box/i)
+  const allContainers = screen.getAllByText(/Petit conteneur/i)
 
   const className = 'container'
   allContainers.forEach(container => {
@@ -28,27 +28,27 @@ ${chalk.reset(prettyDOM(container))}
   allContainers.forEach(container => {
     robertAlertTip(
       () => {
-        expect(container).toHaveStyle('font-style: italic;')
+        expect(container).toHaveStyle('color: white;')
       },
       () =>
         `
-Il manque le fontStyle : 'italic' sur ce container
+Il manque le color : 'white' sur ce container
 
 ${chalk.reset(prettyDOM(container))}
     `.trim(),
     )
   })
 
-  const small = screen.getByText(/small/i)
-  const medium = screen.getByText(/medium/i)
-  const large = screen.getByText(/large/i)
+  const small = screen.getByText(/Petit/i)
+  const medium = screen.getByText(/Moyen/i)
+  const large = screen.getByText(/Grand/i)
 
   expect(small).toHaveClass('container--small')
-  expect(small).toHaveStyle('background-color: lightskyblue;')
+  expect(small).toHaveStyle('background-color: darkslateblue;')
 
   expect(medium).toHaveClass('container--medium')
-  expect(medium).toHaveStyle('background-color: lightpink;')
+  expect(medium).toHaveStyle('background-color: pink;')
 
   expect(large).toHaveClass('container--large')
-  expect(large).toHaveStyle('background-color: lightsalmon;')
+  expect(large).toHaveStyle('background-color: lightgreen;')
 })
