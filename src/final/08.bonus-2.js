@@ -14,10 +14,8 @@ const initialSkills = [
 
 function MesSkills() {
   const [skills, setSkills] = React.useState(initialSkills);
-  console.log('skills', skills)
   const addSkillPython = () => {
     setSkills([...skills,{id: `${Math.random()}`, value: 'Python'}])
-   // console.log('skills', props.skills)
   }
   return (
     <>
