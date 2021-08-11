@@ -1,12 +1,11 @@
 <div>
   <h1 align="center"><a href="https://MikeCodeur.Com/fundamentals">React Module Name 🚀 MikeCodeur.Com</a></h1>
   <strong>
-    Apprendre les bases de XXX
-    Et de YYY
+    Module sur les fondamentaux de React JS
   </strong>
   <p>
-    Apprenez tout ce dont vous avez besoin pour être efficace avec XXX. Lorsque vous aurez terminé, vous serez prêt à
-    créez YYY pour créer d'excellentes expériences pour les utilisateurs de votre application.
+    Apprenez tout ce dont vous avez besoin pour être efficace avec React JS. Lorsque vous aurez terminé, vous serez prêt à
+    coder des sites en React
   </p>
 
   <a href="https://formations.mikecodeur.com/react-js-entreprise">
