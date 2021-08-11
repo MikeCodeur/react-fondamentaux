@@ -1,5 +1,5 @@
 <div>
-  <h1 align="center"><a href="https://MikeCodeur.Com/fundamentals">React Module Name 🚀 MikeCodeur.Com</a></h1>
+  <h1 align="center"><a href="https://MikeCodeur.Com/fundamentals">React Fondamentaux 🚀 MikeCodeur.Com</a></h1>
   <strong>
     Module sur les fondamentaux de React JS
   </strong>
