@@ -1,12 +1,12 @@
 {
   "name": "@mikecodeur/react-fondamentaux",
   "title": "React Fondamentaux",
-  "description": "Les fondamentaux de React JS",
+  "description": "Les fondamentaux de React, module de la formation React Mastery",
   "author": "Mike Codeur <contact@mikecodeur.com> (https://mikecodeur.com/)",
   "version": "1.0.0",
   "private": true,
   "keywords": [],
-  "homepage": "http://react-fondamentaux.mikecodeur.com",
+  "homepage": "https://react-fondamentaux.mikecodeur.com",
   "license": "GPL-3.0-only",
   "main": "src/index.js",
   "engines": {
@@ -37,7 +37,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "test:coverage": "npm run test -- --watchAll=false",
-    "test:exercises": "npm run test -- testing.*exercises\\/ --onlyChanged",
     "init": "node install",
     "lint": "eslint .",
     "format": "prettier --write \"./src\"",

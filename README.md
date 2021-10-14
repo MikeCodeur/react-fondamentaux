@@ -1,21 +1,20 @@
 <div>
-  <h1 align="center"><a href="https://MikeCodeur.Com/fundamentals">React Fondamentaux 🚀 MikeCodeur.Com</a></h1>
+  <h1 align="center"><a href="https://go.mikecodeur.com/react-mastery">Les fondamentaux de React 🚀 ReactMastery.Dev</a></h1>
   <strong>
-    Module sur les fondamentaux de React JS
+    Les fondamentaux de React
   </strong>
   <p>
-    Apprenez tout ce dont vous avez besoin pour être efficace avec React JS. Lorsque vous aurez terminé, vous serez prêt à
-    coder des sites en React
+    Module de la formation React Mastery. Module sur les fondamentaux de React. DOM, JSX, Composants et props, Styles, rendu conditionnel, Tableaux, States, Formulaires 
   </p>
 
-  <a href="https://formations.mikecodeur.com/react-js-entreprise">
-    <img
+  <a href="https://go.mikecodeur.com/react-mastery">
+    <img 
       alt="Apprendre React"
-      src="https://via.placeholder.com/1280x720?text=logo%20du%20module%20de%20formation"
+      src="https://mikecodeur.com/mike/assets/courses/react-mastery-3.png"
     />
   </a>
  
-  <a href="https://formations.mikecodeur.com/react-js-entreprise" >
+  <a href="https://go.mikecodeur.com/react-mastery" >
     <img width="100"
       alt="Apprendre React"
       src="https://mikecodeur.com/mike/assets/mikecodeur-trans.png"
@@ -30,8 +29,7 @@
 <!-- prettier-ignore-start -->
 [![Build Status][build-badge]][build]
 [![GPL 3.0 License][license-badge]][license]
-[![All Contributors][all-contributors-badge]](#contributors-)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/40a35ecf-1972-4f90-b2d5-abcca8e2d862/deploy-status)](https://app.netlify.com/sites/gracious-brattain-0d6b8d/deploys)
+[![Netlify Status][netlify-badge]][netlify]
 <!-- prettier-ignore-end -->
 
 ## Les prérequis 
@@ -39,7 +37,7 @@
 - Les bases de HTML CSS JS
   ["Les bases de JavaScript"](https://www.youtube.com/watch?v=Tg1xZic-JQs&list=PLwWXkX8UsKlgkg0U_JH82p4bLSuAuTdof)
 - A lire
-  ["Les bases de JavaScript"](https://mikecodeur.com/blog/javascript-to-react)
+  ["Les bases de JavaScript"](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 - Installatioin de React DevTools
   ([Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
   (recommended),
@@ -75,7 +73,7 @@ executer cette commande pour pour demarrer la configuration du projet :
 
 
 ```
-git clone https://github.com/mikecodeur/react-fondamentaux.git
+git clone https://github.com/MikeCodeur/react-fondamentaux.git
 cd react-fondamentaux
 npm run init
 ```
@@ -84,7 +82,7 @@ La plupart des problèmes de la commande `npm run init` sont dus aux varialbes d
 PATH
 
 Si vous avez une erreur, lisez le message d'erreur et essayer de corriger. Si vous ne trouvez pas
-de solution vous pouvez [ouvrir un ticket][issue] and donnant le résultat de la console.com
+de solution vous pouvez [ouvrir un ticket][issue] en donnant le résultat de la console
 
 Si le script de setup pose problème vous pouvez simplement executer les deux commandes suivantes :
 
@@ -115,7 +113,7 @@ L'application est basé sur react-create-app et
 [react-scripts](https://create-react-app.dev/).
 
 Vous pouvez aussi acceder au déploiement
-[déploiement sur Netlify](https://react-fondamentaux.netlify.app/).
+[déploiement sur Netlify](https://react-prerequis-debutant.mikecodeur.com/).
 
 ## Executer les tests
 
@@ -139,26 +137,25 @@ différente.
 Le but de l'exercice n'est **pas** de tout voir et de retenir par coeur.
 Le but est de se poser les bonnes questions pour arriver au résultat.
 
-## Helpful Emoji 🐶 📝 🤖 🚀 🐜 📑 ⛏️ 👨‍✈️ 🚨
+## Emojis Importants 🐶 📝 🤖 🚀 🐜 📑 ⛏️ 👨‍✈️ 🚨
 
-Les exercices contiennent des commantaires pour vous aider à avancer. Ces emojis
+Les exercices contiennent des commentaires pour vous aider à avancer. Ces emojis
 sont la pour vous aider sur différents aspects.
 
 - **Mowgli le Chien** 🐶 te dira quand il y a quelque chose de spécifique que tu dois faire.
 - **Jack le Carnet de note** 📝 va t'encourager à prendre des notes sur l'avancement
 - **Ash le Robot** 🤖 te donnera des conseils spécifiques (et parfois du code en cours de route).
-- **Julia la roquette** 🚀 te propulsera encore plus loin en te donnant des défis supplémentaires que tu peux relever si tu termines les exercices tôt.
-- **Dany la Fourmis** 🐜 te donnera des informations utiles/des notes sur les meilleures pratiques et un lien pour l'élaboration et la rétroaction.
+- **Julia la roquette** 🚀 te propulsera encore plus loin en te donnant des défis supplémentaires que tu peux relever dès que tu termines les exercices.
+- **Dany la Fourmis** 🐜 te donnera des informations utiles/des notes sur les meilleures pratiques et un lien pour pour me donner ton retour sur chaque module.
 - **Dominic le Document** 📑 te donnera des liens vers de la documentation utile
-- **Hulk le Marteau** ⛏️ va traîner partout où vous avez besoin de faire detruire des trucs (supprimer le code)
-- **Hugo le chef de projet** 👨‍✈️ va nous aider sur les spécifications du projet
+- **Hulk le Marteau** ⛏️ va traîner partout où tu as besoin de detruire des trucs (supprimer le code)
+- **Hugo le chef de projet** 👨‍✈️ va t'aider sur les spécifications du projet
 - **Robert l'Alerte** 🚨 apparaîtra occasionnellement dans les échecs des tests avec des explications potentielles pour lesquelles les tests échouent.
-
 
 ## Contributeurs
 
 Merci aux contributeurs
-([emoji key](https://github.com/mikecodeur/all-contributors#emoji-key)):
+([contributeurs](https://github.com/all-contributors/all-contributors)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -176,29 +173,26 @@ Merci aux contributeurs
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 Ce projet suit les specifications 
-[all-contributors](https://github.com/mikecodeur/all-contributors)
+[all-contributors](https://github.com/all-contributors/all-contributors)
 . Toutes les contributions sont les bienvenues!
 
-## Donner un retour
+## 🐜 Donner un retour
 
 Tous les exercices ont un lien de feedback
 
-A la fin de l'exercice, vous pouvez aller à cette adresse pour nous donner
-votre avis.
-At the end of the workshop, please go to this URL to give overall feedback.
-Thank you! https://go.mikecodeur.com/cours-react-avis
+A la fin de l'exercice, tu peux aller à cette adresse pour nous donner
+ton avis ! https://go.mikecodeur.com/cours-react-avis
 
 <!-- prettier-ignore-start -->
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
 [git]: https://git-scm.com/
-[build-badge]: https://img.shields.io/github/workflow/status/mikecodeur/react-fondamentaux/validate/main?logo=github&style=flat-square
-[build]: https://github.com/mikecodeur/react-fondamentaux/actions?query=workflow%3Avalidate
+[build-badge]: https://img.shields.io/github/workflow/status/MikeCodeur/react-fondamentaux/installation
+[build]: https://github.com/MikeCodeur/react-fondamentaux/actions
+[netlify-badge]: https://api.netlify.com/api/v1/badges/8ac5a24b-f29a-4f96-94b1-cf717ab7915e/deploy-status
+[netlify]: https://app.netlify.com/sites/friendly-snyder-c692a9/deploys
 [license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
 [license]: https://github.com/mikecodeur/react-fondamentaux/blob/main/LICENSE
-[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc]: https://github.com/mikecodeur/react-fondamentaux/blob/main/CODE_OF_CONDUCT.md
-[emojis]: https://github.com/mikecodeur/all-contributors#emoji-key
 [all-contributors]: https://github.com/mikecodeur/all-contributors
 [all-contributors-badge]: https://img.shields.io/github/all-contributors/mikecodeur/react-fondamentaux?color=orange&style=flat-square
 [win-path]: https://tutorielsgeek.com/comment-definir-des-variables-denvironnement-dans-windows-10/
