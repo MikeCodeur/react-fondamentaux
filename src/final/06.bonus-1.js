@@ -21,11 +21,7 @@ function AdminActions() {
 }
 
 function GuestActions() {
-  return (
-    <div>
-      {buttonRead}
-    </div>
-  )
+  return <div>{buttonRead}</div>
 }
 
 function ButtonActions({isAdmin}) {

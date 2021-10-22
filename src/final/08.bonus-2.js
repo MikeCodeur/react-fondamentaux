@@ -13,9 +13,9 @@ const initialSkills = [
 ]
 
 function MesSkills() {
-  const [skills, setSkills] = React.useState(initialSkills);
+  const [skills, setSkills] = React.useState(initialSkills)
   const addSkillPython = () => {
-    setSkills([...skills,{id: `${Math.random()}`, value: 'Python'}])
+    setSkills([...skills, {id: `${Math.random()}`, value: 'Python'}])
   }
   return (
     <>
@@ -29,11 +29,8 @@ function MesSkills() {
   )
 }
 
-
 function App() {
   return <MesSkills />
 }
-
-
 
 export default App

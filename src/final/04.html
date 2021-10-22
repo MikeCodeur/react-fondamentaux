@@ -11,17 +11,17 @@
     <div id="root"></div>
     <script type="text/babel">
       // ⚠️ Ceci n'est pas encore un composant React
-      function paragraphe({children}){
-        return <p className='paragraphe'>{children}</p>
+      function paragraphe({children}) {
+        return <p className="paragraphe">{children}</p>
       }
 
       const divElement = (
-        <div className='rootContainer'>
+        <div className="rootContainer">
           <h1>Bienvenue sur mon site</h1>
-          {paragraphe({children:'Lorem Ipsum is simply dummy text ...'})}
-          {paragraphe({children:'Lorem Ipsum has been the industry ...'})}
-          {paragraphe({children:'when an unknown printer took a galley ..'})}
-        </div> 
+          {paragraphe({children: 'Lorem Ipsum is simply dummy text ...'})}
+          {paragraphe({children: 'Lorem Ipsum has been the industry ...'})}
+          {paragraphe({children: 'when an unknown printer took a galley ..'})}
+        </div>
       )
 
       ReactDOM.render(divElement, document.getElementById('root'))

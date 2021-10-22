@@ -21,16 +21,12 @@ function AdminActions() {
 }
 
 function GuestActions() {
-  return (
-    <div>
-      {buttonRead}
-    </div>
-  )
+  return <div>{buttonRead}</div>
 }
 
 function ButtonActions({isAdmin, hidden}) {
   if (hidden) {
-    return null;
+    return null
   }
   return isAdmin ? <AdminActions /> : <GuestActions />
 }
@@ -38,7 +34,7 @@ function ButtonActions({isAdmin, hidden}) {
 function App() {
   return (
     <div>
-      <ButtonActions isAdmin={true} hidden={false}/>
+      <ButtonActions isAdmin={true} hidden={false} />
     </div>
   )
 }

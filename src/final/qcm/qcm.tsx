@@ -3,13 +3,13 @@ import React from 'react'
 
 interface IQuestion {
   question: string
-  options:string[]
+  options: string[]
   answer: string
 }
 
 interface IQCMInterface {
   exerciseId: string
-  exerciseTitle : string
+  exerciseTitle: string
   quiz: IQuestion[]
 }
 
@@ -19,14 +19,25 @@ const QCM: Array<IQCMInterface> = [
     exerciseTitle: 'Manipuler le DOM en JavaScript Natif',
     quiz: [
       {
-        question: "Comment créer un élement DOM div en JavaScript ",
-        options: ["window.createElement('div')", "document.createElement('div')", "document.createDiv()", "super.createElement('div')"],
-        answer: "1"
-      },{
-        question: "Comment ajouter du texte sur cet élement ? (divEl)",
-        options: ["divEl.text = 'le texte'", "divEl.setText = 'le texte'", "divEl.writeText = 'le texte'", "divEl.textContent = 'le texte'"],
-        answer: "3"
-      }
+        question: 'Comment créer un élement DOM div en JavaScript ',
+        options: [
+          "window.createElement('div')",
+          "document.createElement('div')",
+          'document.createDiv()',
+          "super.createElement('div')",
+        ],
+        answer: '1',
+      },
+      {
+        question: 'Comment ajouter du texte sur cet élement ? (divEl)',
+        options: [
+          "divEl.text = 'le texte'",
+          "divEl.setText = 'le texte'",
+          "divEl.writeText = 'le texte'",
+          "divEl.textContent = 'le texte'",
+        ],
+        answer: '3',
+      },
     ],
   },
   //export
@@ -36,21 +47,38 @@ const QCM: Array<IQCMInterface> = [
     quiz: [
       {
         question: "Quel est l'équivalent de document.createElement('div') ?",
-        options: ["ReactDOM.createElement('div')", "React.createElement('div')", "ReactJS.createElement('div')", "ReactRender.createElement('div')"],
-        answer: "1"
-      },{
+        options: [
+          "ReactDOM.createElement('div')",
+          "React.createElement('div')",
+          "ReactJS.createElement('div')",
+          "ReactRender.createElement('div')",
+        ],
+        answer: '1',
+      },
+      {
         question: "Quel est l'équivalent de rootElement.append(element)",
-        options: ["React.render(element, rootElement)", "ReactDOM.render(element, rootElement)", "ReactDOM.render(rootElement,element)", "React.render(rootElement,element)"],
-        answer: "0"
-      },{
-        question: "React est ",
-        options: ["Déclaration", "Impératif"],
-        answer: "0"
-      },{
+        options: [
+          'React.render(element, rootElement)',
+          'ReactDOM.render(element, rootElement)',
+          'ReactDOM.render(rootElement,element)',
+          'React.render(rootElement,element)',
+        ],
+        answer: '0',
+      },
+      {
+        question: 'React est ',
+        options: ['Déclaration', 'Impératif'],
+        answer: '0',
+      },
+      {
         question: "Qu'est-ce que le prop children ?",
-        options: ["Un prop comme un autre", "permet de gérer le CSS enfant", "permet l'imbrication de composants"],
-        answer: "2"
-      }
+        options: [
+          'Un prop comme un autre',
+          'permet de gérer le CSS enfant',
+          "permet l'imbrication de composants",
+        ],
+        answer: '2',
+      },
     ],
   },
   {
@@ -58,22 +86,30 @@ const QCM: Array<IQCMInterface> = [
     exerciseTitle: 'Utilisation de JSX',
     quiz: [
       {
-        question: "Que signifie JSX ?",
-        options: ["JavaSctipt Sans XML", "JavaScript XML", "JS vervion X", "JavaScript SX"],
-        answer: "1"
-      },{
-        question: "Quelle la bonne solution pour une div et une classe CSS",
+        question: 'Que signifie JSX ?',
+        options: [
+          'JavaSctipt Sans XML',
+          'JavaScript XML',
+          'JS vervion X',
+          'JavaScript SX',
+        ],
+        answer: '1',
+      },
+      {
+        question: 'Quelle la bonne solution pour une div et une classe CSS',
         options: ["<div class='container' />", "<div className='container' />"],
-        answer: "1"
-      },{
-        question: "JSX est reconnu par tous les navigateurs récents ",
-        options: ["Vrai", "Faux"],
-        answer: "1"
-      },{
+        answer: '1',
+      },
+      {
+        question: 'JSX est reconnu par tous les navigateurs récents ',
+        options: ['Vrai', 'Faux'],
+        answer: '1',
+      },
+      {
         question: "Quel utilitaire nous permet d'utiliser JSX",
-        options: ["NPM", "ESlint","Babel"],
-        answer: "2"
-      }
+        options: ['NPM', 'ESlint', 'Babel'],
+        answer: '2',
+      },
     ],
   },
   {
@@ -82,29 +118,38 @@ const QCM: Array<IQCMInterface> = [
     quiz: [
       {
         question: "Quelle est la bonne déclaration d'un composant ?",
-        options: ["function Welcome()", "function welcome()"],
-        answer: "0"
-      },{
+        options: ['function Welcome()', 'function welcome()'],
+        answer: '0',
+      },
+      {
         question: "Qu'est ce qu'un prop ?",
-        options: ["Un composant", "Des données en entrées de composant", "Un validateur de données"],
-        answer: "1"
-      },{
+        options: [
+          'Un composant',
+          'Des données en entrées de composant',
+          'Un validateur de données',
+        ],
+        answer: '1',
+      },
+      {
         question: "Peut-on modifier un prop à l'interieur du composant ?",
-        options: ["Oui", "Non"],
-        answer: "1"
-      },{
-        question: "Les props sont que des string ",
-        options: ["Vrai", "Faux"],
-        answer: "1"
-      },{
-        question: "Les props peuvent être des fonctions",
-        options: ["Vrai", "Faux"],
-        answer: "0"
-      },{
-        question: "Comment valider les props ?",
-        options: ["Avec Validator", "Avec Flow", "Avec PropTypes"],
-        answer: "2"
-      }
+        options: ['Oui', 'Non'],
+        answer: '1',
+      },
+      {
+        question: 'Les props sont que des string ',
+        options: ['Vrai', 'Faux'],
+        answer: '1',
+      },
+      {
+        question: 'Les props peuvent être des fonctions',
+        options: ['Vrai', 'Faux'],
+        answer: '0',
+      },
+      {
+        question: 'Comment valider les props ?',
+        options: ['Avec Validator', 'Avec Flow', 'Avec PropTypes'],
+        answer: '2',
+      },
     ],
   },
   {
@@ -112,26 +157,30 @@ const QCM: Array<IQCMInterface> = [
     exerciseTitle: 'Ajouter du Style CSS',
     quiz: [
       {
-        question: "Quel prop React permet de spécifier une Classe",
-        options: ["class", "classe", "className","nameClass"],
-        answer: "2"
-      },{
-        question: "Quel prop React permet de faire du style inline",
-        options: ["inline", "style", "styles","css"],
-        answer: "1"
-      },{
-        question: "Les propriétés CSS en React sont sous forme ",
-        options: ["De string", "D'objet"],
-        answer: "1"
-      },{
-        question: "Les propriétés CSS en React sont en ",
-        options: ["CamelCase", "Kebab-Case"],
-        answer: "0"
-      },{
+        question: 'Quel prop React permet de spécifier une Classe',
+        options: ['class', 'classe', 'className', 'nameClass'],
+        answer: '2',
+      },
+      {
+        question: 'Quel prop React permet de faire du style inline',
+        options: ['inline', 'style', 'styles', 'css'],
+        answer: '1',
+      },
+      {
+        question: 'Les propriétés CSS en React sont sous forme ',
+        options: ['De string', "D'objet"],
+        answer: '1',
+      },
+      {
+        question: 'Les propriétés CSS en React sont en ',
+        options: ['CamelCase', 'Kebab-Case'],
+        answer: '0',
+      },
+      {
         question: "Il est recommandé d'utiliser le css  ",
-        options: ["En Inline", "via des Classes"],
-        answer: "1"
-      }
+        options: ['En Inline', 'via des Classes'],
+        answer: '1',
+      },
     ],
   },
   {
@@ -139,14 +188,20 @@ const QCM: Array<IQCMInterface> = [
     exerciseTitle: 'Affichage Conditionnel',
     quiz: [
       {
-        question: "Un composant peut-il retourner null ?",
-        options: ["Oui", "Non"],
-        answer: "0"
-      },{
+        question: 'Un composant peut-il retourner null ?',
+        options: ['Oui', 'Non'],
+        answer: '0',
+      },
+      {
         question: "Quel est la bonne syntyaxe d'une ternaire ?",
-        options: ["libelle = isAdmin ? <HelloAdmin> :  <HelloGuest>", "libelle = isAdmin : <HelloAdmin> ?  <HelloGuest>", "libelle = isAdmin ! <HelloAdmin> :  <HelloGuest>","libelle = isAdmin ? <HelloAdmin> ?  <HelloGuest>"],
-        answer: "0"
-      }
+        options: [
+          'libelle = isAdmin ? <HelloAdmin> :  <HelloGuest>',
+          'libelle = isAdmin : <HelloAdmin> ?  <HelloGuest>',
+          'libelle = isAdmin ! <HelloAdmin> :  <HelloGuest>',
+          'libelle = isAdmin ? <HelloAdmin> ?  <HelloGuest>',
+        ],
+        answer: '0',
+      },
     ],
   },
   {
@@ -154,20 +209,23 @@ const QCM: Array<IQCMInterface> = [
     exerciseTitle: 'Rendu de tableaux',
     quiz: [
       {
-        question: "Les props keys uniques sont obligatoires partout ?",
-        options: ["Oui", "Non"],
-        answer: "1"
+        question: 'Les props keys uniques sont obligatoires partout ?',
+        options: ['Oui', 'Non'],
+        answer: '1',
       },
       {
-        question: "Les props keys uniques sont obligatoires sur les listes ?",
-        options: ["Oui", "Non"],
-        answer: "0"
+        question: 'Les props keys uniques sont obligatoires sur les listes ?',
+        options: ['Oui', 'Non'],
+        answer: '0',
       },
       {
-        question: "Si les props keys uniques sont absentes cela ...",
-        options: ["Logue une erreur dans la console", "Logue un warning dans la console"],
-        answer: "1"
-      }
+        question: 'Si les props keys uniques sont absentes cela ...',
+        options: [
+          'Logue une erreur dans la console',
+          'Logue un warning dans la console',
+        ],
+        answer: '1',
+      },
     ],
   },
   {
@@ -176,34 +234,40 @@ const QCM: Array<IQCMInterface> = [
     quiz: [
       {
         question: "Peut-on modifier des props en interne d'un composant ?",
-        options: ["Oui", "Non"],
-        answer: "1"
+        options: ['Oui', 'Non'],
+        answer: '1',
       },
       {
         question: "Peut-on modifier des states en interne d'un composant ?",
-        options: ["Oui", "Non"],
-        answer: "0"
+        options: ['Oui', 'Non'],
+        answer: '0',
       },
       {
         question: "Qu'est ce qu'une fonction pure ?",
-        options: ["Une fonction contenant des states", "Une fonction qui retourne un objet", "Une fonction qui modifie l'entrée","Une fonction qui ne modifie pas l'entrée"],
-        answer: "3"
+        options: [
+          'Une fonction contenant des states',
+          'Une fonction qui retourne un objet',
+          "Une fonction qui modifie l'entrée",
+          "Une fonction qui ne modifie pas l'entrée",
+        ],
+        answer: '3',
       },
       {
         question: "En React il est interdit d'avoir des fonctions impures ?",
-        options: ["Vrai", "Faux"],
-        answer: "0"
+        options: ['Vrai', 'Faux'],
+        answer: '0',
       },
       {
-        question: "Les Classes permettent de faire des composants statefull" ,
-        options: ["Vrai", "Faux"],
-        answer: "0"
+        question: 'Les Classes permettent de faire des composants statefull',
+        options: ['Vrai', 'Faux'],
+        answer: '0',
       },
       {
-        question: "Les fonctions permettent uniquement des composants stateless" ,
-        options: ["Vrai", "Faux"],
-        answer: "1"
-      }
+        question:
+          'Les fonctions permettent uniquement des composants stateless',
+        options: ['Vrai', 'Faux'],
+        answer: '1',
+      },
     ],
   },
   {
@@ -212,24 +276,36 @@ const QCM: Array<IQCMInterface> = [
     quiz: [
       {
         question: "Qu'est-ce qu'un compopsant non-controllé ?",
-        options: ["Les données sont gérées dans le DOM", "Les données sont gérées dans des states"],
-        answer: "0"
+        options: [
+          'Les données sont gérées dans le DOM',
+          'Les données sont gérées dans des states',
+        ],
+        answer: '0',
       },
       {
         question: "Qu'est-ce qu'un compopsant controllé ?",
-        options: ["Les données sont gérées dans le DOM", "Les données sont gérées dans des states"],
-        answer: "1"
+        options: [
+          'Les données sont gérées dans le DOM',
+          'Les données sont gérées dans des states',
+        ],
+        answer: '1',
       },
       {
-        question: "Quelles est la bonne syntaxe pour créer une ref",
-        options: ["React.useCreateRef()","React.ref()", "React.useRef()"],
-        answer: "2"
+        question: 'Quelles est la bonne syntaxe pour créer une ref',
+        options: ['React.useCreateRef()', 'React.ref()', 'React.useRef()'],
+        answer: '2',
       },
       {
-        question: "Comment récupérer la valeur du champs input dans l'événement onChange ?",
-        options: ["event.value", "event.ref.value","event.target.data", "event.target.value"],
-        answer: "3"
-      }
+        question:
+          "Comment récupérer la valeur du champs input dans l'événement onChange ?",
+        options: [
+          'event.value',
+          'event.ref.value',
+          'event.target.data',
+          'event.target.value',
+        ],
+        answer: '3',
+      },
     ],
   },
 ]
@@ -237,6 +313,6 @@ const QCM: Array<IQCMInterface> = [
 //export default QCM;
 
 const QcmComponent = () => {
-  return (<>{ JSON.stringify(QCM, null, 2) }</>);
+  return <>{JSON.stringify(QCM, null, 2)}</>
 }
 export default QcmComponent
