@@ -10,16 +10,20 @@
   <body>
     <div id="root"></div>
     <script>
-    const rootEl = document.getElementById('root')
-    const divEl = React.createElement('div', {
-      className: 'rootContainer',
-      children: [
-        React.createElement('h1', null, 'Bienvenue'),
-        React.createElement('h2', null, 'Commencez ici'),
-        React.createElement('p', null, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
-      ],
-    })
-    ReactDOM.render(divEl, rootEl)
-  </script>
+      const rootEl = document.getElementById('root')
+      const divEl = React.createElement('div', {
+        className: 'rootContainer',
+        children: [
+          React.createElement('h1', null, 'Bienvenue'),
+          React.createElement('h2', null, 'Commencez ici'),
+          React.createElement(
+            'p',
+            null,
+            'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+          ),
+        ],
+      })
+      ReactDOM.render(divEl, rootEl)
+    </script>
   </body>
 </html>

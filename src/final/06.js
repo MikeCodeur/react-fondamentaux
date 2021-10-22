@@ -19,11 +19,7 @@ function ButtonActions({isAdmin}) {
       </div>
     )
   } else {
-    return (
-      <div>
-         {buttonRead}
-      </div>
-    )
+    return <div>{buttonRead}</div>
   }
 }
 

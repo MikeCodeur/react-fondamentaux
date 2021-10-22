@@ -33,6 +33,4 @@ function App() {
   return <MesSkills skills={skills} />
 }
 
-
-
 export default App

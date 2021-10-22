@@ -11,17 +11,17 @@
     <div id="root"></div>
     <script type="text/babel">
       // Ceci est un composant React
-      function Paragraphe({children}){
-        return <p className='paragraphe'>{children}</p>
+      function Paragraphe({children}) {
+        return <p className="paragraphe">{children}</p>
       }
 
       const divElement = (
-        <div className='rootContainer'>
+        <div className="rootContainer">
           <h1>Bienvenue sur mon site</h1>
           <Paragraphe>Lorem Ipsum is simply dummy text ...</Paragraphe>
           <Paragraphe>Lorem Ipsum has been the industry ...</Paragraphe>
           <Paragraphe>when an unknown printer took a galley ...</Paragraphe>
-        </div> 
+        </div>
       )
 
       ReactDOM.render(divElement, document.getElementById('root'))

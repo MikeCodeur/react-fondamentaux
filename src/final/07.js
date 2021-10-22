@@ -4,11 +4,11 @@
 import * as React from 'react'
 
 const skills = []
-skills.push(<li key='1'>HTML</li>)
-skills.push(<li key='2'>CSS</li>)
-skills.push(<li key='3'>JS</li>)
-skills.push(<li key='4'>REACT</li>)
-skills.push(<li key='5'>ANGULAR</li>)
+skills.push(<li key="1">HTML</li>)
+skills.push(<li key="2">CSS</li>)
+skills.push(<li key="3">JS</li>)
+skills.push(<li key="4">REACT</li>)
+skills.push(<li key="5">ANGULAR</li>)
 
 function MesSkills() {
   return <ul>{skills.map(skill => skill)}</ul>

@@ -37,11 +37,7 @@ function App() {
       >
         Grand conteneur vert rose texte noire
       </Container>
-      <Container
-        className='container--custom'
-      >
-        Custom
-      </Container>
+      <Container className="container--custom">Custom</Container>
     </div>
   )
 }

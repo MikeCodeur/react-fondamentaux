@@ -9,7 +9,7 @@ import '../05-styles.css'
 // 'container' 'container-small' etc ...
 
 // 🐶 Utilise le prop `className` pour les propriétés générales du conteneur et une
-// une specificité. (className aura donc 2 classes CSS) 
+// une specificité. (className aura donc 2 classes CSS)
 // 🤖 className='container container-small' par exemple
 
 // 🐶 Utilise ensuite du CSS Inline avec le prop `style` pour gerer le background color
@@ -23,7 +23,7 @@ const largeContainer = <div>Grand conteneur vert rose texte noire</div>
 function App() {
   return (
     <div>
-      {smallContainer} 
+      {smallContainer}
       {mediumContainer}
       {largeContainer}
     </div>
