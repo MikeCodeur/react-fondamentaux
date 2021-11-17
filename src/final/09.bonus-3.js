@@ -10,7 +10,7 @@ function LoginForm() {
 
   const handleChange = event => {
     setEmail(event.target.value)
-    setError(email.includes('@') ? null : "L'email est non valide")
+    setError(event.target.value.includes('@') ? null : "L'email est non valide")
   }
 
   const handleSubmit = event => {
