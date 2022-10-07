@@ -53,7 +53,7 @@ const QCM: Array<IQCMInterface> = [
           "ReactJS.createElement('div')",
           "ReactRender.createElement('div')",
         ],
-        answer: '0',
+        answer: '1',
       },
       {
         question: "Quel est l'équivalent de rootElement.append(element)",
