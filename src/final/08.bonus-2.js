@@ -1,3 +1,4 @@
+"use client"
 // Rendu de tableaux
 // 🚀 Utilisation de State
 // http://localhost:3000/alone/final/05.js

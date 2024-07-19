@@ -1,3 +1,4 @@
+"use client"
 // Rendu de tableaux
 // 🚀 Essaie sur des props ⚠️antipattern⚠️
 // http://localhost:3000/alone/final/05.js

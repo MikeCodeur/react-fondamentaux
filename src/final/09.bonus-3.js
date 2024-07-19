@@ -1,3 +1,4 @@
+"use client"
 // Formulaires
 // 🚀 Validation et erreur
 // http://localhost:3000/alone/final/05.js
