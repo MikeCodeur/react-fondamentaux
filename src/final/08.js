@@ -1,3 +1,4 @@
+"use client"
 // Les States
 // http://localhost:3000/alone/final/08.js
 

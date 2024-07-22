@@ -1,3 +1,4 @@
+"use client"
 // Les formulaires
 // http://localhost:3000/alone/exercise/08.js
 
